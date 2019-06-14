@@ -1,0 +1,14 @@
+- hosts: localhost
+
+- name: Create User
+  include: user_creation.yml
+
+- name: Get K8S Dependencies
+  include: kube-dependencies.yml
+
+- name: Create Cluster
+  include: init_cluster.yml
+
+- name: Join Workers
+  include: init_workers.yml
+
