@@ -55,7 +55,7 @@ cluster is running using the following command.
 kubectl get all --namespace=kube-system
 ```
 
-#### Credits
+### Credits
 
 This playbook is based on the one that is provided in this  
 [Digital Ocean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-ubuntu-18-04).
